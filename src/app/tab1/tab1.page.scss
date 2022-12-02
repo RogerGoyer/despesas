@@ -1,0 +1,33 @@
+.superior {
+    height: 17%;
+    padding: 1em;
+    background: var(--ion-color-primary);
+}
+
+.usuario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nome {
+    font-size: 1rem;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.saldo {
+    box-shadow: 0 !important;
+    border-left: 10px solid var(--ion-color-primary);
+}
+
+ion-card-subtitle {
+    color: #969696;
+}
+
+.item-positivo {
+    color: var(--ion-color-primary);
+}
+.item-negativo {
+    color: var(--ion-color-danger);
+}
